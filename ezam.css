@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    overflow: hidden;
+}
+ul li{
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.con{
+    width: 1440px;
+    height: 100%;
+    background-color:#f7f7f7 ;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+}
+.top{
+    width: 1440px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #363636;
+    font-weight: bold;  
+    padding-left: 200px; 
+}
+.top ul li{
+    width: 70px;
+    height: 40px;
+    list-style: none;
+    float:left;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-right:20px; 
+    overflow: hidden;
+}
+.top-nav1 ul li a{
+    color: #8e8e8e;
+    background-color:#383838;
+    }
+.top-nav1 ul li a:hover{
+    color: #ddd;
+}
+.top-nav2  li a{
+    color: #ddd;
+    display: block;
+}
+.top-nav2  li a:hover{
+    background:#fff;
+    color: #999;
+    height: 40px
+    width:93px;
+    border-bottom: 1px solid #999;
+}
+.top-nav2 ul li ul{
+    display: none;
+    width: 93px;
+    padding: 0;
+    position: relative;
+}
+.top-nav2 li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+/*显示二级菜单*/
+.top-nav2 li:hover ul{
+    display: block;
+}
+.top-nav2 li:hover ul li{
+    display: none;
+}
+.content{
+    width: 1010px;
+    height: auto;
+    background-color: #fff;
+    overflow: hidden;
+    margin-left: 215px;
+
+}
+.logo{
+    width: 1010px;
+    height: 93px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 15px;
+}
+.logo img{
+    margin-top: 40px;
+}
+.menu {
+    width: 1010px;
+    height: 65px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.menu ul{
+    width: 320px;
+    padding: 0px;
+    margin: 0;
+    float:left;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.menu  li {
+    display: block;
+    padding: 0px;
+    width: 65px;
+    height: 20px;
+    list-style: none;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.menu ul li a{
+    color: #333;
+}
+.menu ul li a.on{
+    color: #ff4444;
+}
+
+.act{
+    width: 745px;
+    height:355px;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+.act-1 a{
+    display: block;
+}
+.act-1 ul li{
+list-style: none;
+display: block;
+padding: 0;
+margin: 0;
+float: left;
+} 
+.act .new1-li{
+    width: 745px;
+    height: 355px;
+}
+.act .new1{
+    width: 294px;
+    height: 354px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+
+}
+.act .new2{
+    width: 294px;
+    height: 177px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+.act .new3{
+    width: 294px;
+    height: 177px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+.new-2{
+    width: 294px;
+    height: 177px;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.act span{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 294px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    bottom: 38px;
+}
+.act p{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 294px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    bottom: 215px;
+}
+.btn{
+    width: 100px;
+    height: 354px;
+    float: right;
+    overflow: hidden;
+}
+.btn li{
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 150px;
+    height:120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: red;
+    border-bottom: blue;
+}
+
+.act-menu{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-left: 20px;
+    margin-top: -325px;
+}
+h5{
+    
+    color: #e75c41;
+    font-size: 16px;
+    border-bottom:1px solid #ddd;
+}
+h5:hover{
+    display: block;
+    width: 65px;
+    border-bottom:1px solid #e75c41;
+}
